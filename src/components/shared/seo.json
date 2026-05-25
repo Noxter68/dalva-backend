@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "maxLength": 60,
+      "required": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "maxLength": 160,
+      "required": true
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "keywords": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
