@@ -35,7 +35,7 @@
       ]
     },
     "content": {
-      "type": "blocks",
+      "type": "richtext",
       "required": true
     },
     "readingTime": {
